@@ -6,7 +6,7 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 ![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/18c5ad10-ff43-4657-8f34-f01fffd92d11)
 ![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/1c2273cd-28b7-42d2-9d09-28cafae3adcd)
 # Technologies:
-MVC (Model-View-Controller) architecture to achieve separation of concerns and maintain independence about backend/frontend services.
+* MVC (Model-View-Controller) architecture to achieve separation of concerns and maintain independence about backend/frontend services.
 Express.js minimal, unopinionated backend framework to keep serverside boilerplate as low as possible. Especially useful for learning how to piece different technologies together to develop a complete backend. \
 Express-Session to learn how cookies work to deliver a rich user experience through client and serverside cookies.
 Passport.js for authentication and authorization. \
