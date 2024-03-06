@@ -21,9 +21,11 @@ const reviewRoutes = require('./routes/reviews')
 const passport = require('passport')
 const LocalStrategy = require('passport-local')
 const User = require('./models/user')
+const MongoDBStore = require("connect-mongo")(session);
 
-
-mongoose.connect('mongodb://127.0.0.1:27017/campground')
+const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/campground';
+//const dbUrl = process.env.DB_URL;
+mongoose.connect(dbUrl);
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
@@ -41,7 +43,18 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname,'public')));
 
+const store = new MongoDBStore({
+    url: dbUrl,
+    secret: 'secret',
+    touchAfter: 24 * 60 * 60
+});
+
+store.on("error", function(e){
+    console.log("SESSION STORE ERROR", e)
+})
+
 const sessionConfig = {
+    store,
     secret: 'secret',
     resave: false,
     saveUninitialized: true,
