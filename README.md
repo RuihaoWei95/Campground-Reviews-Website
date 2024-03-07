@@ -1,10 +1,13 @@
 # Campground-Reviews-Website
-YelpCamp is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project was part of Colt Steele's web dev course on udemy.
+Campground-Reviews-Website is a website where users can create and review campgrounds. This project was part of Colt Steele's web dev course on Udemy.
+(https://campground-reviews-website.onrender.com/campgrounds)
 
-This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
+This project was created using Node.js, Express, MongoDB, and Bootstrap. The application is deployed on render.
 
-![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/18c5ad10-ff43-4657-8f34-f01fffd92d11)
-![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/1c2273cd-28b7-42d2-9d09-28cafae3adcd)
+![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/eb5b785c-ede3-4f7a-b2b1-d0744fe885e0)
+
+![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/9b1c79b5-903a-4638-98fd-497e229aaeb5)
+
 # Technologies:
 **MVC (Model-View-Controller)** architecture to achieve separation of concerns and maintain independence about backend/frontend services. \
 **Express.js** minimal, unopinionated backend framework to keep serverside boilerplate as low as possible. Especially useful for learning how to piece different technologies together to develop a complete backend. Express-Session to learn how cookies work to deliver a rich user experience through client and serverside cookies. \
