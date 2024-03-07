@@ -1,8 +1,7 @@
 # Campground-Reviews-Website
 Campground-Reviews-Website is a website where users can create and review campgrounds. This project was part of Colt Steele's web dev course on Udemy.
-(https://campground-reviews-website.onrender.com/campgrounds)
 
-This project was created using Node.js, Express, MongoDB, and Bootstrap. The application is deployed on render.
+This project was created using Node.js, Express, MongoDB, and Bootstrap. The application is deployed on render.(https://campground-reviews-website.onrender.com/campgrounds)
 
 ![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/eb5b785c-ede3-4f7a-b2b1-d0744fe885e0)
 ![image](https://github.com/RuihaoWei95/Campground-Reviews-Website/assets/104181507/9b1c79b5-903a-4638-98fd-497e229aaeb5)
